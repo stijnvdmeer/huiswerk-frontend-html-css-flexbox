@@ -39,6 +39,6 @@
         flex-direction: row;
         row-gap: 10px;
         column-gap: 10px;
-        flex-wrap: wrap4
+        flex-wrap: wrap;
     }
 }
