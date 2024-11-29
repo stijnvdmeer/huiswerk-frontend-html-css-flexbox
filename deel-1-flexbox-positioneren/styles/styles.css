@@ -20,10 +20,16 @@
 .opdracht-3 {
     ul {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
+        justify-content: space-between;
 
         #tL {
-            justify-self: flex-start;
+            align-self: flex-start;
         }
+        #ce {
+            align-self: center;
+        }
+        #bR {
+            align-self: flex-end;      }
     }
 }
