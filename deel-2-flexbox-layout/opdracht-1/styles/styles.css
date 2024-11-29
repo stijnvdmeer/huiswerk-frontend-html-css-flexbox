@@ -12,7 +12,7 @@ body {
         display: flex;
         flex-direction: row;
         flex-grow: 5;
-        flex-basis: 7   0%;
+        flex-basis: 70%;
         article {
             flex-grow: 1;
         }
