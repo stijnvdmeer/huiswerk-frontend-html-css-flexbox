@@ -33,3 +33,12 @@
             align-self: flex-end;      }
     }
 }
+.opdracht-4 {
+    ul {
+        display: flex;
+        flex-direction: row;
+        row-gap: 10px;
+        column-gap: 10px;
+        flex-wrap: wrap4
+    }
+}
