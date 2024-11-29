@@ -1,1 +1,29 @@
 /*Schrijf hier jouw CSS*/
+.opdracht-1 {
+    ul {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+.opdracht-2 {
+    ul {
+        display: flex;
+
+        li {
+            flex-basis: 500px;
+        }
+    }
+}
+
+.opdracht-3 {
+    ul {
+        display: flex;
+        flex-direction: row;
+
+        #tL {
+            justify-self: flex-start;
+        }
+    }
+}
