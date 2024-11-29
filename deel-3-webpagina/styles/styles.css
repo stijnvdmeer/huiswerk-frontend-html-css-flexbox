@@ -1,7 +1,7 @@
 /*Schrijf hier jouw css*/
 body {
-    width: 100vw;
-    height: 100vh;
+    width: 99vw;
+    height: 98vh;
 
 
     display: flex;
@@ -11,24 +11,54 @@ body {
     nav {
         display: flex;
         flex-direction: row;
+        flex-basis: 10%;
+        align-items: center;
+        justify-content: center;
 
         background-color: black;
         color: white;
 
+        span {
+            flex-basis: 20%;
+            justify-self: center;
+            font-size: 2em;
+        }
         ul {
             display: flex;
             flex-direction: row;
             justify-content: flex-end;
-
+            flex-basis:70%;
             li {
-                border: red solid ;
                 list-style: none;
+                font-size: 1.5em;
+
+                flex-basis: 10%;
             }
         }
     }
     main {
         display: flex;
         flex-direction: column;
+        flex-basis: 100%;
+
+        background-color: #F2F3D9;
+        .headerTitle {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border: red solid 1px;
+            flex-basis:15%;
+        }
+        .mainContent {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            flex-basis:90%;
+
+
+            border: green solid 1px;
+        }
     }
 
 }
